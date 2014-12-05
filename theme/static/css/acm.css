@@ -20,3 +20,9 @@
 #mc-embedded-subscribe {
     color: white;
 }
+
+footer.navbar-default.navbar-fixed-bottom
+ {
+      background: white;
+      padding:1em 0;
+ }
