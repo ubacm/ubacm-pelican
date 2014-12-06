@@ -37,13 +37,23 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
+            {% if page_name %}
             <li {% if page_name == 'index' %}class="active"{% endif %}><a href="{{ SITEURL }}">Home</a></li>
-            <li {% if page_name == 'events' %}class="active"{% endif %}><a href="{{ SITEURL }}/pages/events.html">Events</a></li>
+            <li {% if page_name == 'events' %}class="active"{% endif %}><a href="{{ SITEURL }}/events">Events</a></li>
             <li {% if page_name == 'calendar' %}class="active"{% endif %}><a href="./calendar/">Calendar</a></li>
             <li {% if page_name == 'resources' %}class="active"{% endif %}><a href="./resources/">Resources</a></li>
             <li {% if page_name == 'members' %}class="active"{% endif %}><a href="./members/">Members</a></li>
             <li {% if page_name == 'officers' %}class="active"{% endif %}><a href="./officers/">Officers</a></li>
             <li {% if page_name == 'contact' %}class="active"{% endif %}><a href="#">Contact</a></li>
+            {% else %}
+            <li {% if page.name == 'index' %}class="active"{% endif %}><a href="{{ SITEURL }}">Home</a></li>
+            <li {% if page.name == 'events' %}class="active"{% endif %}><a href="{{ SITEURL }}/pages/events.html">Events</a></li>
+            <li {% if page.name == 'calendar' %}class="active"{% endif %}><a href="./calendar/">Calendar</a></li>
+            <li {% if page.name == 'resources' %}class="active"{% endif %}><a href="./resources/">Resources</a></li>
+            <li {% if page.name == 'members' %}class="active"{% endif %}><a href="./members/">Members</a></li>
+            <li {% if page.name == 'officers' %}class="active"{% endif %}><a href="./officers/">Officers</a></li>
+            <li {% if page.name == 'contact' %}class="active"{% endif %}><a href="#">Contact</a></li>
+            {% endif %}
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="https://github.com/ubacm" target="_blank"><i class="fa fa-github-square fa-lg"></i></a></li>
