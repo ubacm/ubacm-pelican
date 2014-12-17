@@ -17,7 +17,7 @@ First time:
 
 1. Clone the repo down.
 2. Create a virtualenv for the project: `virtualenv --distribute env`.
-3. Start the virtualenv: `source env/bin/active`.
+3. Start the virtualenv: `source env/bin/activate`.
 4. Add the dependencies: `pip install -R requirements.txt`.
 
 Actually building and running: 
