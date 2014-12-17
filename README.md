@@ -19,5 +19,6 @@ First time:
 2. Create a virtualenv for the project: `virtualenv --distribute env`.
 3. Start the virtualenv: `source env/bin/active`.
 4. Add the dependencies: `pip install -R requirements.txt`.
+
 Actually building and running: 
-5. `fab reserve`, which is a combination of `fab build` and `fab serve`.
+1. `fab reserve`, which is a combination of `fab build` and `fab serve`.
