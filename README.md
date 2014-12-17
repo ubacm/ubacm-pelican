@@ -14,9 +14,10 @@ This repo contains the raw files for building the UB ACM website. When modifying
 Building and Running
 ====================
 First time:
+
 1. Clone the repo down.
 2. Create a virtualenv for the project: `virtualenv --distribute env`.
 3. Start the virtualenv: `source env/bin/active`.
 4. Add the dependencies: `pip install -R requirements.txt`.
 Actually building and running: 
-1. `fab reserve`, which is a combination of `fab build` and `fab serve`.
+5. `fab reserve`, which is a combination of `fab build` and `fab serve`.
