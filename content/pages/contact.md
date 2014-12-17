@@ -10,7 +10,7 @@ Slug: contact
 <p>Facebook Page</p>
 </div>
 <div class="col-md-4">
-<a href="mailto:ubsa-acm@buffalo.edu"><i class="fa fa-envelope fa-5x"></i></a>
+<a href="http://www.google.com/recaptcha/mailhide/d?k=01QIRUYABCMhaLiaxiJesgzA==&c=swK7o0lDOw4JlHHvC6yc52iabKko3ayZ0NCzmQZeUVE="><i class="fa fa-envelope fa-5x"></i></a>
 <p>E-mail us</p>
 </div>
 <div class="col-md-4">
@@ -26,7 +26,7 @@ Slug: contact
 <p>Facebook Group</p>
 </div>
 <div class="col-md-6">
-<a href="mailto:ubsa-acm@buffalo.edu"><i class="fa fa-building fa-5x"></i></a>
+<a href="#"><i class="fa fa-building fa-5x"></i></a>
 <p>Davis 348</p>
 </div>
 </div>
