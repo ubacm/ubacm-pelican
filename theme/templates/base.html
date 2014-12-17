@@ -33,12 +33,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">UB ACM</a>
+          <a class="navbar-brand" href="{{ SITEURL }}/">UB ACM</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
             {% if page_name %}
-            <li {% if page_name == 'index' %}class="active"{% endif %}><a href="{{ SITEURL }}">Home</a></li>
+            <li {% if page_name == 'index' %}class="active"{% endif %}><a href="{{ SITEURL }}/">Home</a></li>
             <li {% if page_name == 'events' %}class="active"{% endif %}><a href="{{ SITEURL }}/events">Events</a></li>
             <li {% if page_name == 'calendar' %}class="active"{% endif %}><a href="{{ SITEURL }}/calendar">Calendar</a></li>
             <li {% if page_name == 'resources' %}class="active"{% endif %}><a href="{{ SITEURL }}/resources">Resources</a></li>
@@ -46,7 +46,7 @@
             <li {% if page_name == 'officers' %}class="active"{% endif %}><a href="{{ SITEURL }}/officers">Officers</a></li>
             <li {% if page_name == 'contact' %}class="active"{% endif %}><a href="{{ SITEURL }}/contact">Contact</a></li>
             {% else %}
-            <li {% if page.name == 'index' %}class="active"{% endif %}><a href="{{ SITEURL }}">Home</a></li>
+            <li {% if page.name == 'index' %}class="active"{% endif %}><a href="{{ SITEURL }}/">Home</a></li>
             <li {% if page.name == 'events' %}class="active"{% endif %}><a href="{{ SITEURL }}/events">Events</a></li>
             <li {% if page.name == 'calendar' %}class="active"{% endif %}><a href="{{ SITEURL }}/calendar">Calendar</a></li>
             <li {% if page.name == 'resources' %}class="active"{% endif %}><a href="{{ SITEURL }}/resources">Resources</a></li>
