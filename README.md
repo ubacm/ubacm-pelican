@@ -23,3 +23,4 @@ First time:
 Actually building and running: 
 
 1. `fab reserve`, which is a combination of `fab build` and `fab serve`.
+2. Go to `http://localhost:8000` in your browser of choice.
