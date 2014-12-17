@@ -21,4 +21,5 @@ First time:
 4. Add the dependencies: `pip install -R requirements.txt`.
 
 Actually building and running: 
+
 1. `fab reserve`, which is a combination of `fab build` and `fab serve`.
